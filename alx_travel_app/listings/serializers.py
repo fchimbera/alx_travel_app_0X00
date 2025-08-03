@@ -16,4 +16,4 @@ class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
         model = Review
         fields = '__all__'
-        read_only_fields = ('listing-id', 'user')  # Assuming listing and user ar
+        read_only_fields = ('listing_id', 'user') # Corrected from 'listing-id'
